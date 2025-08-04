@@ -1,5 +1,8 @@
+# REPOSITORIO CON BASES DE DATOS ENFOCADOS DE DISTINTA MANERA
 
-# 🗃️ Sistema de Registro de Ventas — Documentación de Base de Datos
+---
+
+## 🗃️ Sistema de Registro de Ventas — Documentación de Base de Datos
 
 Este proyecto contiene un sistema completo de registro de ventas con múltiples entidades relacionadas. A continuación, se documenta la estructura de la base de datos, el script de inserción y una consulta SQL útil para obtener una vista completa del sistema.
 
@@ -148,6 +151,13 @@ LIMIT 100;
 
 ## 🐍 Script Python de Inserción Automática
 
+El archivo `insert_registers.py` genera e inserta datos falsos realistas en todas las tablas automáticamente usando la librería [`Faker`](https://faker.readthedocs.io/), controlando colisiones de claves únicas y permitiendo detener el proceso con la tecla `s` para la tabla autonoma.
+
+```bash
+source venv/bin/activate
+python insert_regsiters.py
+```
+
 El archivo `insert_2.py` genera e inserta datos falsos realistas en todas las tablas automáticamente usando la librería [`Faker`](https://faker.readthedocs.io/), controlando colisiones de claves únicas y permitiendo detener el proceso con la tecla `s`.
 
 ```bash
@@ -167,6 +177,4 @@ Características:
 ## ✍️ Autor
 
 > Generado con amor por Speencer DuskStar Dust (a.k.a. Dusk) ✨  
-> Servidor: `eva01`  
 > Fecha: 2025-08-04  
-> Uso interno y educativo 🧪
