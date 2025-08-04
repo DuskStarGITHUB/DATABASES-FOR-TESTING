@@ -5,6 +5,7 @@
 ## 🗃️ Sistema de Registro de Ventas — Documentación de Base de Datos
 
 Este proyecto contiene un sistema completo de registro de ventas con múltiples entidades relacionadas. A continuación, se documenta la estructura de la base de datos, el script de inserción y una consulta SQL útil para obtener una vista completa del sistema.
+<img width="1426" height="810" alt="imagen" src="https://github.com/user-attachments/assets/4d645397-46a7-43ba-8377-ade55e54581e" />
 
 ---
 
